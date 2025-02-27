@@ -1992,9 +1992,17 @@
     ulid "^2.3.0"
 
 "@medusajs/event-bus-redis@^2.5.0":
-  version "2.5.0"
-  resolved "https://registry.npmjs.org/@medusajs/event-bus-redis/-/event-bus-redis-2.5.0.tgz"
-  integrity sha512-GawSA9W/U1T8eRuMXkIzmR3tf9ybHnWhaAmmlkRcWmmwoBchrY2K30yyheGRvNG3YqeUV6NouMSvxzlZEABF8g==
+  version "2.5.1"
+  resolved "https://registry.npmjs.org/@medusajs/event-bus-redis/-/event-bus-redis-2.5.1.tgz"
+  integrity sha512-fmOdzPbryb04J0nKHXKE+Y2pzeHN+8nDc0ykgbYQ0OI9CEHWCo7b46ejt8So3/PfsOKj952u3xZlFR5RecUTkA==
+  dependencies:
+    bullmq "5.13.0"
+    ioredis "^5.4.1"
+
+"@medusajs/event-bus-redis@^2.5.2-preview-20250227090150":
+  version "2.5.2-preview-20250227090150"
+  resolved "https://registry.npmjs.org/@medusajs/event-bus-redis/-/event-bus-redis-2.5.2-preview-20250227090150.tgz"
+  integrity sha512-5X9U1TmDo0plAjpqy6EgNysNMOXOfkAUlyJwsYiZhudba4VKmrPRFrj/QVpwtp72BtaZZqYHWfVkfN4fbjoUsg==
   dependencies:
     bullmq "5.13.0"
     ioredis "^5.4.1"
@@ -2018,7 +2026,7 @@
   resolved "https://registry.npmjs.org/@medusajs/file/-/file-2.5.0.tgz"
   integrity sha512-vgEoh36k4cXYB3OTY9nZcEF4VPUdkJ/fPG49bI8/Cf4LXboJKoc6I4oGFNIglFqmuNLcz1CWOW4PQ1wttJU3kQ==
 
-"@medusajs/framework@^2.4.0", "@medusajs/framework@2.5.0":
+"@medusajs/framework@^2.4.0", "@medusajs/framework@2.5.0", "@medusajs/framework@2.5.2-preview-20250227090150":
   version "2.5.0"
   resolved "https://registry.npmjs.org/@medusajs/framework/-/framework-2.5.0.tgz"
   integrity sha512-VZs5yv+iV6GU0JdL4A7EYYsaA8Wm71c3eKYDTV1/A9Bix2xIubyM+YAjEALyFbUtAsnSOIEKfu7ha0nw2ceNiw==

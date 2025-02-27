@@ -24,6 +24,7 @@
   "dependencies": {
     "@medusajs/admin-sdk": "2.5.0",
     "@medusajs/cli": "2.5.0",
+    "@medusajs/event-bus-redis": "^2.5.2-preview-20250227090150",
     "@medusajs/framework": "2.5.0",
     "@medusajs/medusa": "2.5.0",
     "@mikro-orm/core": "6.4.3",
